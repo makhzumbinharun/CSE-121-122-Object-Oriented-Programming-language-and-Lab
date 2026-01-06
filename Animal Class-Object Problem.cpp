@@ -14,12 +14,22 @@ class animal{
 };
 
 int main() {
-    	animal Human;
-    	Human.color= "White";
-    	Human.sound= "Meow";
-    	Human.name="Zebu";
-    	Human.printinfo();
-    	Human.showname();
+    	cout<<"Cat"<<endl;
+    	animal Cat;
+    	Cat.color= "White";
+    	Cat.sound= "Meow";
+    	Cat.name="Zebu";
+    	Cat.printinfo();
+    	Cat.showname();
+    	
+    	cout<<endl<<"Bear"<<endl;
+    	
+    	animal Bear;
+    	Bear.color= "White";
+    	Bear.sound= "Garrr";
+    	Bear.name="Zabu";
+    	Bear.printinfo();
+    	Bear.showname();
     return 0;
 
 }
