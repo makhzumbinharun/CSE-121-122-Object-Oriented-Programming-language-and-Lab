@@ -1,22 +1,34 @@
 #include <bits/stdc++.h>
 using namespace std;
-class car{
+class animal{
     public:
-    string brand;
-    string model;
-    int year;
-    void displayinfo(){
-        cout<<"Brand: "<<brand<<endl<< "Model: "<<model<<endl<<"Year: "<<year<<endl; 
+    string color;
+    string sound;
+    string name;
+    void printinfo(){
+        cout<<"Color: "<<color<<endl<<"Sound: "<<sound<<endl;
+    }
+    void showname(){
+         cout<<"Name: "<<name<<endl;
     }
 };
 
 int main() {
-   	    animal Cat;
-    	Human.color= "White";
-    	Human.sound= "Meow";
-    	Human.name="Zebu";
-    	Human.printinfo();
-    	Human.showname();
+    	animal Cat;
+    	Cat.color= "White";
+    	Cat.sound= "Meow";
+    	Cat.name="Zebu";
+    	Cat.printinfo();
+    	Cat.showname();
+    	
+    	cout<<endl;
+    	
+    	animal Bear;
+    	Bear.color= "White";
+    	Bear.sound= "Garrr";
+    	Bear.name="Zabu";
+    	Bear.printinfo();
+    	Bear.showname();
     return 0;
 
 }
