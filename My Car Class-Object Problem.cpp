@@ -11,11 +11,12 @@ class car{
 };
 
 int main() {
-    	car myCar;
-    	myCar.brand="Tesla";
-    	myCar.model="Model X";
-    	myCar.year=2018;
-    	myCar.displayinfo();
+   	    animal Cat;
+    	Human.color= "White";
+    	Human.sound= "Meow";
+    	Human.name="Zebu";
+    	Human.printinfo();
+    	Human.showname();
     return 0;
 
 }
