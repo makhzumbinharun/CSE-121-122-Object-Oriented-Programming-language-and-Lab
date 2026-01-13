@@ -4,13 +4,13 @@ using namespace std;
 class Student{
     private:
     string name;
-    int roll_number;
+    long long roll_number;
     int mark1;
     int mark2;
     int mark3;
     
     public:
-    void set_value(string N, int id, int m1, int m2, int m3){
+    void set_value(string N, long long id, int m1, int m2, int m3){
         name=N;
         roll_number=id;
         mark1=m1;
