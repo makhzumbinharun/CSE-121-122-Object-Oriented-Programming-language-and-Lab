@@ -1,54 +1,41 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-class Employee {
+class Point {
 private:
-    string name;
-    float basicSalary;
-    float bonus;
+    int x, y;
 
 public:
-    Employee() {
-        name = "Unknown";
-        basicSalary = 0.00;
-        bonus = 0.00;
+    Point() {
+        x = 0;
+        y = 0;
     }
 
-    Employee(string nm, float bsalary, float bon) {
-        name = nm;
-        basicSalary = bsalary;
-        bonus = bon;
+    Point(int x1, int y1) {
+        x = x1;
+        y = y1;
     }
 
-    void setSalary(float up_sal, float up_bon) {
-        basicSalary = up_sal;
-        bonus = up_sal;
-        cout << "The Salary has been updated!!";
+    Point(const Point &P1) {
+        x = P1.x;
+        y = P1.y;
     }
 
-    float calaulateTotalSalary() {
-        return basicSalary + bonus;
+    int getX() {
+        return x;
     }
 
-    void display() {
-        cout << "\nEmployee Name: " << name
-             << "\nBasic Salary: " << fixed << setprecision(2) << basicSalary
-             << "\nBonus: " << fixed << setprecision(2) << bonus
-             << "\nTotal Salary: " << fixed << setprecision(2)
-             << calaulateTotalSalary() << "\n";
+    int getY() {
+        return y;
     }
 };
 
 int main() {
-    Employee None;
-    None.display();
+    Point P1(7, 9);
+    Point P2 = P1;
 
-    Employee MRI("Md. Rafiul Islam", 10000.00, 2000.00);
-    MRI.display();
-
-    MRI.setSalary(40000, 5000.00);
-    cout << "\nUpdated Salary\n";
-    MRI.display();
+    cout << "Point 1:\n X:" << P1.getX() << " Y:" << P1.getY() << endl;
+    cout << "Point 2:\n X:" << P2.getX() << " Y:" << P2.getY() << endl;
 
     return 0;
 }
