@@ -9,8 +9,6 @@ class Book{
     void display_details(){
         cout<<"Title: "<<title<<endl<<"Author: "<<author<<endl<<"Publication Year: "<<pubyr<<endl;
     }
-    
-    
 };
 
 int main() {
