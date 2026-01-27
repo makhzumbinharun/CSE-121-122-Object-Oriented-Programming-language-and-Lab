@@ -14,8 +14,7 @@ public:
 };
 
 int sqr_it(samp o1, samp o2){
-    int sum=o1.get_i()+o2.get_i();
-    return sum * sum;
+    return (o1.get_i()+o2.get_i()) * (o1.get_i()+o2.get_i());
 }
 
 int main() {
