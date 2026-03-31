@@ -22,7 +22,7 @@ class coord{
     }
     
     void display(){
-        cout << "(ob1+ob2) X:" << x << "\n(ob1+ob2) Y:" << y <<endl;
+        cout << "(ob1+ob2) X: " << x << "\n(ob1+ob2) Y: " << y <<endl;
     }
     
     
@@ -31,8 +31,8 @@ class coord{
 
 
 int main() {
-	coord o1(2,7), o2(2,6), o3;
-	o3=o1+o2;
-	o3.display();
+	coord s1(2,7), s2(2,6), s3;
+	s3=s1+s2;
+	s3.display();
 	return 0;
 }
