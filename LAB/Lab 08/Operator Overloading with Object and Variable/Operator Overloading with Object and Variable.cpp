@@ -6,14 +6,16 @@ class coord{
     coord(){
         x=0;y=0;
     }
+    
     coord(int i, int j){
         x=i;
         y=j;
     }
     friend coord operator+(coord ob1, int i);
     friend coord operator+(int i, coord ob1);
+    
     void display(){
-        cout << "X: " << x << "Y: " << y << endl;
+        cout << "X: " << x << " Y: " << y << endl;
     }
 };
 coord operator+(coord ob1, int i){
@@ -29,8 +31,13 @@ coord operator+(int i, coord ob1){
     temp.y=i+ob1.y;
     return temp;
 }
+
 int main() {
-	coord o1(10,10), o2
+	coord o1(10,10), o2;
+	o2=o1+10;
+	o2.display();
+	o2=10+o2;
+	o2.display();
 	
 return 0;
 }
