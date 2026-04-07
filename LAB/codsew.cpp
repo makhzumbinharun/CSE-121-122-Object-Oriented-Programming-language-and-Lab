@@ -6,6 +6,10 @@ class coord{
     coord(){
         x=0;y=0;
     }
+    coord(int i, int j){
+        x=i;
+        y=j;
+    }
     friend coord operator+(coord ob1, int i);
     friend coord operator+(int i, coord ob1);
     void display(){
