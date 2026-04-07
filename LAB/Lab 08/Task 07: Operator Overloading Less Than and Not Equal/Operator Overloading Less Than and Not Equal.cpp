@@ -38,14 +38,10 @@ int main() {
 	cout << "\nLess Than Overloading\n";
 	if(MBH<MRI) cout << "MRI is the topper";
 	else cout << "MBH is the topper";
-	
-	cout << "\nNot Equal Overloading\n" << endl;
+	cout << "\n";
+	cout << "\nNot Equal Overloading" << endl;
 	if(MBH!=MRI) cout << "Not Equal";
 	else cout << "Equal";
 	
 return 0;
 }
-
-
-
-
