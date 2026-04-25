@@ -2,27 +2,27 @@
 using namespace std;
 
 class Student {
-public:
+private:
     int id;
     int age;
     string name;
-
+public:
     Student(int i, int a, string n) {
         id = i;
         age = a;
         name = n;
     }
 
-    friend int operator<(Student ob1, Student ob2);
+    friend bool operator<(const Student &ob1, const Student &ob2);
 
-    friend int operator!=(Student ob1, Student ob2);
+    friend bool operator!=(const Student &ob1, const Student &ob2);
 };
 
-    int operator<(Student ob1, Student ob2){
+    bool operator<(const Student &ob1, const Student &ob2){
         return ob1.age < ob2.age;
     }
 
-    int operator!=(Student ob1, Student ob2){
+    bool operator!=(const Student &ob1, const Student &ob2){
         return ob1.age != ob2.age;
     }
 
