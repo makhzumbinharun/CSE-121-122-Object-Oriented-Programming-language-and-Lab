@@ -1,6 +1,6 @@
-# Object-Oriented Programming Language and Lab (CSE 121 & 122)
+# Object-Oriented Programming Language and Lab (CSE 111 & 112)
 
-Welcome to the repository for **CSE 121 & 122: Object-Oriented Programming Language and Lab**! This repository serves as a structured collection of my coursework, practical assignments, and theoretical implementations written entirely in **C++**. 
+Welcome to the repository for **CSE 111 & 112: Object-Oriented Programming Language and Lab**! This repository serves as a structured collection of my coursework, practical assignments, and theoretical implementations written entirely in **C++**. 
 
 As a B.Sc. Engineering student at **BUBT**, I created this repository to document my academic progression through core OOP concepts, from foundational lecture notes to practical lab exercises and group presentations (such as our teamwork with PUNGDOS). 
 
@@ -31,3 +31,12 @@ I'm always open to discussing C++ programming, competitive programming, and broa
 
 ---
 *Maintained with ❤️ for mastering Object-Oriented Programming.*
+
+
+---
+
+<div align="center">
+
+### ⭐ If this repository helps you, consider giving it a star!
+
+</div>
